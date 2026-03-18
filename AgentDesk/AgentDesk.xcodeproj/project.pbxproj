@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000041 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000021 /* AppTheme.swift */; };
+		A10000000000000000000042 /* AgentDeskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000022 /* AgentDeskApp.swift */; };
+		A10000000000000000000043 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000023 /* ChatMessage.swift */; };
+		A10000000000000000000044 /* ChatConversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000024 /* ChatConversation.swift */; };
+		A10000000000000000000045 /* AgentTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000025 /* AgentTask.swift */; };
+		A10000000000000000000046 /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000026 /* APIConfiguration.swift */; };
+		A10000000000000000000047 /* PersistenceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000027 /* PersistenceStore.swift */; };
+		A10000000000000000000048 /* AIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000028 /* AIService.swift */; };
+		A10000000000000000000049 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000029 /* AppState.swift */; };
+		A1000000000000000000004A /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000002A /* RootView.swift */; };
+		A1000000000000000000004B /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000002B /* SidebarView.swift */; };
+		A1000000000000000000004C /* ConversationRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000002C /* ConversationRowView.swift */; };
+		A1000000000000000000004D /* ChatDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000002D /* ChatDetailView.swift */; };
+		A1000000000000000000004E /* MessageRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000002E /* MessageRowView.swift */; };
+		A1000000000000000000004F /* ComposerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000002F /* ComposerView.swift */; };
+		A10000000000000000000050 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000030 /* SettingsView.swift */; };
+		A10000000000000000000051 /* TaskCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000031 /* TaskCenterView.swift */; };
+		A10000000000000000000052 /* TaskRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000032 /* TaskRowView.swift */; };
+		A10000000000000000000053 /* EmptyConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000033 /* EmptyConversationView.swift */; };
+		A10000000000000000000054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000034 /* Assets.xcassets */; };
+		A10000000000000000000055 /* AgentLogEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000035 /* AgentLogEntry.swift */; };
+		A10000000000000000000056 /* WorkspaceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000036 /* WorkspaceService.swift */; };
+		A10000000000000000000057 /* LocalCommandService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000037 /* LocalCommandService.swift */; };
+		A10000000000000000000058 /* ProjectValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000038 /* ProjectValidator.swift */; };
+		A10000000000000000000059 /* AgentAutomationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000039 /* AgentAutomationService.swift */; };
+		A1000000000000000000005A /* AgentCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000003A /* AgentCenterView.swift */; };
+		A1000000000000000000005B /* LearnedMemoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000003B /* LearnedMemoryItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1000000000000000000000B /* AgentDesk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = AgentDesk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000021 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		A10000000000000000000022 /* AgentDeskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentDeskApp.swift; sourceTree = "<group>"; };
+		A10000000000000000000023 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		A10000000000000000000024 /* ChatConversation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatConversation.swift; sourceTree = "<group>"; };
+		A10000000000000000000025 /* AgentTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentTask.swift; sourceTree = "<group>"; };
+		A10000000000000000000026 /* APIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfiguration.swift; sourceTree = "<group>"; };
+		A10000000000000000000027 /* PersistenceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceStore.swift; sourceTree = "<group>"; };
+		A10000000000000000000028 /* AIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIService.swift; sourceTree = "<group>"; };
+		A10000000000000000000029 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		A1000000000000000000002A /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		A1000000000000000000002B /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		A1000000000000000000002C /* ConversationRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationRowView.swift; sourceTree = "<group>"; };
+		A1000000000000000000002D /* ChatDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDetailView.swift; sourceTree = "<group>"; };
+		A1000000000000000000002E /* MessageRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRowView.swift; sourceTree = "<group>"; };
+		A1000000000000000000002F /* ComposerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposerView.swift; sourceTree = "<group>"; };
+		A10000000000000000000030 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A10000000000000000000031 /* TaskCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCenterView.swift; sourceTree = "<group>"; };
+		A10000000000000000000032 /* TaskRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRowView.swift; sourceTree = "<group>"; };
+		A10000000000000000000033 /* EmptyConversationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyConversationView.swift; sourceTree = "<group>"; };
+		A10000000000000000000034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A10000000000000000000035 /* AgentLogEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentLogEntry.swift; sourceTree = "<group>"; };
+		A10000000000000000000036 /* WorkspaceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkspaceService.swift; sourceTree = "<group>"; };
+		A10000000000000000000037 /* LocalCommandService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalCommandService.swift; sourceTree = "<group>"; };
+		A10000000000000000000038 /* ProjectValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectValidator.swift; sourceTree = "<group>"; };
+		A10000000000000000000039 /* AgentAutomationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentAutomationService.swift; sourceTree = "<group>"; };
+		A1000000000000000000003A /* AgentCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentCenterView.swift; sourceTree = "<group>"; };
+		A1000000000000000000003B /* LearnedMemoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnedMemoryItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1000000000000000000000D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10000000000000000000003 = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000005 /* AgentDesk */,
+				A10000000000000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10000000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1000000000000000000000B /* AgentDesk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000005 /* AgentDesk */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000021 /* AppTheme.swift */,
+				A10000000000000000000022 /* AgentDeskApp.swift */,
+				A10000000000000000000006 /* Models */,
+				A10000000000000000000007 /* Services */,
+				A10000000000000000000008 /* ViewModels */,
+				A10000000000000000000009 /* Views */,
+				A1000000000000000000000A /* Resources */,
+			);
+			path = AgentDesk;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000006 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000023 /* ChatMessage.swift */,
+				A10000000000000000000024 /* ChatConversation.swift */,
+				A10000000000000000000025 /* AgentTask.swift */,
+				A10000000000000000000026 /* APIConfiguration.swift */,
+				A10000000000000000000035 /* AgentLogEntry.swift */,
+				A1000000000000000000003B /* LearnedMemoryItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000007 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000027 /* PersistenceStore.swift */,
+				A10000000000000000000028 /* AIService.swift */,
+				A10000000000000000000036 /* WorkspaceService.swift */,
+				A10000000000000000000037 /* LocalCommandService.swift */,
+				A10000000000000000000038 /* ProjectValidator.swift */,
+				A10000000000000000000039 /* AgentAutomationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000008 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000029 /* AppState.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000009 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1000000000000000000002A /* RootView.swift */,
+				A1000000000000000000002B /* SidebarView.swift */,
+				A1000000000000000000002C /* ConversationRowView.swift */,
+				A1000000000000000000002D /* ChatDetailView.swift */,
+				A1000000000000000000002E /* MessageRowView.swift */,
+				A1000000000000000000002F /* ComposerView.swift */,
+				A10000000000000000000030 /* SettingsView.swift */,
+				A10000000000000000000031 /* TaskCenterView.swift */,
+				A10000000000000000000032 /* TaskRowView.swift */,
+				A10000000000000000000033 /* EmptyConversationView.swift */,
+				A1000000000000000000003A /* AgentCenterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A1000000000000000000000A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000034 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10000000000000000000002 /* AgentDesk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000000000000000000010 /* Build configuration list for PBXNativeTarget "AgentDesk" */;
+			buildPhases = (
+				A1000000000000000000000C /* Sources */,
+				A1000000000000000000000D /* Frameworks */,
+				A1000000000000000000000E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgentDesk;
+			productName = AgentDesk;
+			productReference = A1000000000000000000000B /* AgentDesk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					A10000000000000000000002 = {
+						CreatedOnToolsVersion = 26.3;
+						LastSwiftMigration = 2630;
+					};
+				};
+			};
+			buildConfigurationList = A1000000000000000000000F /* Build configuration list for PBXProject "AgentDesk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A10000000000000000000003;
+			productRefGroup = A10000000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10000000000000000000002 /* AgentDesk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1000000000000000000000E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000054 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1000000000000000000000C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000042 /* AgentDeskApp.swift in Sources */,
+				A10000000000000000000041 /* AppTheme.swift in Sources */,
+				A10000000000000000000043 /* ChatMessage.swift in Sources */,
+				A10000000000000000000044 /* ChatConversation.swift in Sources */,
+				A10000000000000000000045 /* AgentTask.swift in Sources */,
+				A10000000000000000000046 /* APIConfiguration.swift in Sources */,
+				A10000000000000000000047 /* PersistenceStore.swift in Sources */,
+				A10000000000000000000048 /* AIService.swift in Sources */,
+				A10000000000000000000049 /* AppState.swift in Sources */,
+				A1000000000000000000004A /* RootView.swift in Sources */,
+				A1000000000000000000004B /* SidebarView.swift in Sources */,
+				A1000000000000000000004C /* ConversationRowView.swift in Sources */,
+				A1000000000000000000004D /* ChatDetailView.swift in Sources */,
+				A1000000000000000000004E /* MessageRowView.swift in Sources */,
+				A1000000000000000000004F /* ComposerView.swift in Sources */,
+				A10000000000000000000050 /* SettingsView.swift in Sources */,
+				A10000000000000000000051 /* TaskCenterView.swift in Sources */,
+				A10000000000000000000052 /* TaskRowView.swift in Sources */,
+				A10000000000000000000053 /* EmptyConversationView.swift in Sources */,
+				A10000000000000000000055 /* AgentLogEntry.swift in Sources */,
+				A10000000000000000000056 /* WorkspaceService.swift in Sources */,
+				A10000000000000000000057 /* LocalCommandService.swift in Sources */,
+				A10000000000000000000058 /* ProjectValidator.swift in Sources */,
+				A10000000000000000000059 /* AgentAutomationService.swift in Sources */,
+				A1000000000000000000005A /* AgentCenterView.swift in Sources */,
+				A1000000000000000000005B /* LearnedMemoryItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A10000000000000000000011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A10000000000000000000012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A10000000000000000000013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J39TZB8JXR;
+				ENABLE_APP_SANDBOX = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanfengzhao.AgentDesk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A10000000000000000000014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J39TZB8JXR;
+				ENABLE_APP_SANDBOX = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanfengzhao.AgentDesk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1000000000000000000000F /* Build configuration list for PBXProject "AgentDesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000011 /* Debug */,
+				A10000000000000000000012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A10000000000000000000010 /* Build configuration list for PBXNativeTarget "AgentDesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000013 /* Debug */,
+				A10000000000000000000014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10000000000000000000001 /* Project object */;
+}
